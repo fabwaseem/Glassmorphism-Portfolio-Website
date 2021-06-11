@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="sidebar">
+            <div class="logo">
+                <h1>W</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#About" class="btn active" id="btn1">About</a></li>
+                    <li><a href="#Services" class="btn" id="btn2">Services</a></li>
+                    <li><a href="#Portfolio" class="btn" id="btn3">Portfolio</a></li>
+                    <li><a href="#Education" class="btn" id="btn4">Education</a></li>
+                    <li><a href="#Contact" class="btn" id="btn5">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- About Section -->
+        <div class="section about section-active" id="sec1">
+            <div class="about-content">
+                <img class="profile" src="user.png" alt="Waseem Anjum">
+                <h1>Waseem Anjum</h1>
+                <p>Web Developer</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi ab earum ratione iusto sunt minus
+                    adipisci quae amet cum tenetur, dolores fugiat optio. Explicabo et eum incidunt quam sequi
+                    recusandae?</p>
+
+                <a href="#" class="btn" id="hire" >Hire Me</a>
+            </div>
+        </div>
+        <!-- About Section End -->
+        <!-- Services Section -->
+        <div class="section services " id="sec2">
+            <h1>Services</h1>
+            <div class="services-content">
+                <div class="row1">
+                    <div class="service">
+                        <h4>Web Developer</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi ab earum ratione iusto sunt
+                            minus adipisci quae amet cum tenetur</p>
+                    </div>
+                    <h4>Resposive Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi ab earum ratione iusto sunt minus
+                        adipisci quae amet cum tenetur</p>
+                </div>
+                <div class="line"></div>
+                <div class="row2">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi ab earum ratione iusto sunt minus
+                        adipisci quae amet cum tenetur</p>
+                    <h4>Seo Marketing</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi ab earum ratione iusto sunt minus
+                        adipisci quae amet cum tenetur</p>
+                </div>
+            </div>
+        </div>
+        <!-- Services Section End -->
+        <!-- Portfolio Section -->
+        <div class="section portfolio " id="sec3">
+            <h1>Portfolio</h1>
+            <div class="portfolio-content">
+                <div class="row1">
+                    <h4>Personal Portfolio</h4>
+                    <img src="https://via.placeholder.com/150" alt="">
+                    <h4>Ecommerce</h4>
+                    <img src="https://via.placeholder.com/150" alt="">
+                </div>
+                <div class="line"></div>
+                <div class="row2">
+                    <h4>Landing Page</h4>
+                    <img src="https://via.placeholder.com/150" alt="">
+                    <h4>Software House</h4>
+                    <img src="https://via.placeholder.com/150" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Section End-->
+        <!-- Education Section -->
+        <div class="section education" id="sec4">
+            <h1>Education</h1>
+            <div class="education-content">
+                <div class="row1">
+                    <h4>Web Development</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi ab earum ratione iusto sunt
+                        minus adipisci quae amet cum tenetur</p>
+                    <h4>Computer Science</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi ab earum ratione iusto sunt minus
+                        adipisci quae amet cum tenetur</p>
+                </div>
+                <div class="line"></div>
+                <div class="row2">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi ab earum ratione iusto sunt minus
+                        adipisci quae amet cum tenetur</p>
+                    <h4>Seo Marketing</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi ab earum ratione iusto sunt minus
+                        adipisci quae amet cum tenetur</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Education Section End-->
+        <!-- Contact Section -->
+        <div class="section contact" id="sec5">
+            <h1>Contact Us</h1>
+            <div class="contact-content">
+                <div class="row1">
+                    <input type="text" placeholder="Name" required >
+                    <input type="email" placeholder="Email" required>
+                    <input  type="text" placeholder="Subject"required>
+                    </div>
+                    <div class="row2">
+                     <textarea name="Message" placeholder="Message..."></textarea>
+                    </div>
+                    
+                    <a type="submit" href="#" class="btn" id="submit">Submit</a>
+            </div>
+        </div>
+        <!-- Contact Section End-->
+    </div>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
